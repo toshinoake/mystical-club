@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mystical Club</title>
+    <meta name="description" content="これはSims4で作成した架空のクラブの紹介ページです。modはKijiko様の髪型と目を使用しています。">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width",initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fontどうしよ？ -->
+
+    
+  </head>
+  <body>
+    <main>
+      <header>
+        
+        <div id="header-flex">
+          <!-- id一応 -->
+          <a id="logo" href="index.html">Mystical Club</a>
+
+          <!-- PCナビ -->
+          <nav id="pc-nav">
+            <a class="pc-link" href="partynight.html">Party Night</a>
+            <a class="pc-link" href="jewels.html">Jewels</a>
+          </nav>
+        
+
+          <!-- スマホメニューボタン-->
+          <img id="sp-menu" src="images/button-menu-white.png" alt="ナビゲーションを開く" onclick="document.getElementById('sp-nav').style.display = 'block'">
+          <!-- スマホナビゲーション -->
+          <nav id="sp-nav">
+            <img id="close" src="images/button-close-black.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('sp-nav').style.display = 'none'">
+            <a class="menu" href="partynight.html" onclick="document.getElementById('sp-nav').style.display = 'none'">Party Night</a>
+            <a class="menu" href="jewels.html" onclick="document.getElementById('sp-nav').style.display = 'none'">Jewels</a>
+          </nav>
+
+        </div>
+      </header>
+
+      <article>
+
+        <!-- トップ画像 -->
+        <section>
+          <h1>Which do you like, club?</h1>
+          <ul id="flex">
+            <li id="pn" class="item">
+              <a href="partynight.html"><img id="party" src="images/partynight.png" alt="partynightの図"></a>
+              <p id="club-pn">「Party Night」</p>
+            </li>
+            <li class="item">
+              <span id="or">or</span>
+            </li>
+            <li id="jw" class="item">  
+              <a href="jewels.html"><img id="jewels" src="images/jewels.png" alt="jewelsの図"></a>
+              <p id="club-jw">「Jewels」</p>
+            </li>
+          </ul>  
+        </section>
+
+
+      </article>
+      <footer>
+        <p>&copy;2023 Mystical Club. All rights reserved</p>
+      </footer>
+    </main>
+  </body>
+</html>

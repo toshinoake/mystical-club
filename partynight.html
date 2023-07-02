@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>party night</title>
+    <meta name="description" content="これはSims4で作成した架空のクラブの紹介ページです。modはKijiko様の髪型と目を使用しています。">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width",initial-scale="1.0">
+    <link rel="stylesheet" href="partynight.css">
+    <!-- Google fontどうしよ？ -->
+
+    
+  </head>
+  <body>
+    <main>
+      <header>
+        
+        <div id="header-flex">
+          <!-- id一応 -->
+          <a id="logo" href="index.html">Mystical Club</a>
+
+          <!-- PCナビ -->
+          <nav id="pc-nav">
+            <a href="partynight.html#about">ABOUT</a>
+            <a id="nav-margin" href="partynight.html#member">MEMBER</a>
+            <a href="partynight.html#activites">ACTIVITES</a>
+          </nav>
+        
+
+          <!-- スマホメニューボタン-->
+          <img id="sp-menu" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('sp-nav').style.display = 'block'">
+          <!-- スマホナビゲーション -->
+          <nav id="sp-nav">
+            <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('sp-nav').style.display = 'none'">
+            <a class="menu" href="partynight.html#about" onclick="document.getElementById('sp-nav').style.display = 'none'">ABOUT</a>
+            <a class="menu" href="partynight.html#member" onclick="document.getElementById('sp-nav').style.display = 'none'">MEMBER</a>
+            <a class="menu" href="partynight.html#activites" onclick="document.getElementById('sp-nav').style.display = 'none'">ACTIVITES</a>
+          </nav>
+
+        </div>
+      </header>
+      <article>
+
+        <!-- トップ画像 -->
+        <section>
+            <!-- divで画像調整-->
+            <div id="top">
+              <div id="top-title">
+                <!-- この下のdivはいらないかも？←　使った -->
+                <div id="top-deco"></div>
+                <p id="partynight">　Party Night　</p>
+                <div>
+                  <span id="pankuzu"><a href="index.html">top</a> <a href="partynight.html">> Party Night</a></span>
+                </div>
+              </div>
+              <!-- トップ画像をダンスの写真と差し替え　済-->
+              <img src="images/top-sashikae.png" alt="club party nightのメンバーたちが踊っている画像">
+            </div>
+            
+        </section>
+
+        <!-- バックグラウンドカラー白 -->
+        <div id="background-white">
+          <!-- クラブの概要＆注意書き -->
+          <section id="about">
+            <h1>ABOUT</h1>
+            <h3>Club</h3>
+            <h2>Party Night</h2>
+            <p>　「Party Night」はSims4というゲームで作成した<span>架空のクラブ</span>です。<br>　友人とキャラを作成していた際、ナオキ・キャンベルというキャラが生まれ、チャラい＝パリピだな＝パリピなら仲間がいないと、
+              という悪ノリの末に出来上がったクラブです。<br>　そのため、クラブといっても活動内容は薄いです。彼らはただ仲間たちと集まり、歌って踊って騒いで楽しい夜を過ごしているだけです。</p>
+            <span>※実在する人物・団体等に一切関係ありません。</span>
+          </section>  
+
+          <!-- メンバー紹介 -->
+          <section id="member">
+            <h1>MEMBER</h1>
+            <span>※sims4のクラブは最大８人までです。</span>
+
+            <!-- このdivはいる？いらない？ -->
+            <div id="member-block0">
+
+              <!-- メンバー1357左 -->
+              <div id="member-left">
+    
+                <!-- 1ナオキ -->
+                <div class="member-block1">
+                  <img id="naoki" class="member-img-left" src="images/ナオキ.png" alt="ナオキ・キャンベルの図">
+                  <div class="member-text-left">
+                    <h2>ナオキ・キャンベル</h2>
+                    <h3>◆リーダー◆</h3>
+                    <ul>
+                      <li>仲間好き</li>
+                      <li>ダンスマシーン</li>
+                      <li>ブラザー</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- 3カーマイン -->
+                <div class="member-block1">
+                  <img class="member-img-left" src="images/カーマイン.png" alt="カーマイン・グラスの図">
+                  <div class="member-text-left">
+                    <h2>カーマイン・グラス</h2>
+                    <h3>スカーレットの弟</h3>
+                    <ul>
+                      <li>音楽好き</li>
+                      <li>クリエイティブ</li>
+                      <li>善人</li>
+                    </ul>
+                  </div>
+                </div>
+            
+                <!-- 5ヴェルデ -->
+                <div class="member-block1">
+                  <img class="member-img-left" src="images/ヴェルデ.png" alt="ヴェルデ・グリーズの図">
+                  <div class="member-text-left">
+                    <h2>ヴェルデ・グリーズ</h2>
+                    <h3>シアンの妹</h3>
+                    <ul>
+                      <li>外交的</li>
+                      <li>家族志向</li>
+                      <li>美食家</li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <!-- 7エドウィン -->
+                <div class="member-block1">
+                  <img class="member-img-left" src="images/エドウィン.png" alt="エドウィン・ディオールの図">
+                  <div class="member-text-left">
+                    <h2>エドウィン・ディオール</h2>
+                    <h3>ボディビルダー</h3>
+                    <ul>
+                      <li>アクティブ</li>
+                      <li>ダンスマシーン</li>
+                      <li>ブラザー</li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+          
+
+              <!-- メンバー2468右 -->
+              <div id="member-right">
+
+                <!-- 2スカーレット -->
+                <div class="member-block1">
+                  <img class="member-img-right" src="images/スカーレット.png" alt="スカーレット・グラスの図">
+                  <div class="member-text-right">
+                    <h2>スカーレット・グラス</h2>
+                    <h3>カーマインの姉</h3>
+                    <ul>
+                      <li>音楽好き</li>
+                      <li>クリエイティブ</li>
+                      <li>ブラザー</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- 4ブロディ -->
+                <div class="member-block1">
+                  <img class="member-img-right" src="images/ブロディ.png" alt="ブロディ・マンデーの図">
+                  <div class="member-text-right">
+                    <h2>ブロディ・マンデー</h2>
+                    <h3>フリーの作家</h3>
+                    <ul>
+                      <li>芸術愛好家</li>
+                      <li>クリエイティブ</li>
+                      <li>本の虫</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- 6シアン -->
+                <div class="member-block1">
+                  <img class="member-img-right" src="images/シアン.png" alt="シアン・グリーズの図">
+                  <div class="member-text-right">
+                    <h2>シアン・グリーズ</h2>
+                    <h3>一流シェフ</h3>
+                    <ul>
+                      <li>家族志向</li>
+                      <li>美食家</li>
+                      <li>善人</li>
+                    </ul>
+                  </div>
+                </div>
+            
+                <!-- 8ケイト -->
+                <div class="member-block1">
+                  <img class="member-img-right" src="images/ケイト.png" alt="ケイト・コールマンの図">
+                  <div class="member-text-right">
+                    <h2>ケイト・コールマン</h2>
+                    <h3>宇宙密猟者</h3>
+                    <ul>
+                      <li>音楽好き</li>
+                      <li>陽気</li>
+                      <li>音楽好き</li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </section>
+
+          <!-- 活動内容 -->
+          <section id="activites">
+            <h1>ACTIVITES</h1>
+            <span>彼らの活動は実にシンプルです。ナイトクラブに現れては歌ったり踊ったりして騒いでます。</span>
+
+            <!-- PC時はフレックスにして横並び、スマホは縦 -->
+            <ul id="activites-flex">
+              <li>
+                <img class="activites-img" src="images/歌う.jpg" alt="カラオケボックスで歌ってる図">
+                <p>歌って！</p>
+              </li>
+              <li id="activites-center">
+                <img class="activites-img" src="images/踊る.jpg" alt="ナイトクラブで踊ってる図">
+                <p>踊って！</p>
+              </li>
+              <li>
+                <img class="activites-img" src="images/騒ぐ.jpg" alt="ナイトクラブで盛り上がっている図">
+                <p>騒ごうぜ！</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <!-- ここまでバックグラウンドカラー白 -->
+
+      </article>
+      <footer>
+        <p>&copy;2023 Mystical Club. All rights reserved</p>
+      </footer>
+    </main>
+  </body>
+</html>
